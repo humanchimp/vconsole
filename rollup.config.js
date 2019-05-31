@@ -1,5 +1,6 @@
 import ts from "@wessberg/rollup-plugin-ts";
 import multiEntry from "rollup-plugin-multi-entry";
+import typescript from "typescript";
 import packageJson from "./package.json";
 
 export default {
@@ -22,5 +23,5 @@ export default {
       name: "hatch"
     },
   ],
-  plugins: [ts(), multiEntry()]
+  plugins: [ts({ typescript }), multiEntry()]
 };
