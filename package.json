@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/cjs/hatch.js",
   "module": "dist/esm/hatch.js",
-  "iife": "dist/iife/hatch.js",
+  "browser": "dist/iife/hatch.js",
   "typings": "dist/hatch.d.ts",
   "license": "MIT",
   "scripts": {
