@@ -1,0 +1,25 @@
+{
+  "name": "@topl/hatch",
+  "version": "1.0.0",
+  "main": "dist/cjs/hatch.js",
+  "module": "dist/esm/hatch.js",
+  "iife": "dist/iife/hatch.js",
+  "typings": "dist/hatch.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "test": "stable",
+    "build": "rollup -c rollup.config.js",
+    "prepublishOnly": "yarn test && yarn build && mv dist/cjs/hatch.d.ts dist && rm dist/*/hatch.d.ts"
+  },
+  "devDependencies": {
+    "@topl/stable": "^0.5.21",
+    "@wessberg/rollup-plugin-ts": "^1.1.54",
+    "nyc": "^14.1.1",
+    "rollup": "^1.13.0",
+    "rollup-plugin-multi-entry": "^2.1.0",
+    "typescript": "^3.5.1"
+  },
+  "nyc": {
+    "instrument": false
+  }
+}
