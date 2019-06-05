@@ -706,10 +706,10 @@
   resolved "https://registry.yarnpkg.com/@topl/stable-plugin-timing/-/stable-plugin-timing-0.5.5.tgz#090727b586d93e43e6171266b473f2f70741a442"
   integrity sha512-S8bhbV/KazGcuhfHgmWzrEqG+LFZzZYiUqiekFjdULeNcmf5u4Vcq69JpCxaXot4VEi8SMBFoIAQhoymDwgSBw==
 
-"@topl/stable@^0.5.21":
-  version "0.5.21"
-  resolved "https://registry.yarnpkg.com/@topl/stable/-/stable-0.5.21.tgz#78045962e98c7b94046c64dab1e7a2df41d740fa"
-  integrity sha512-2vx2lvAr0EObXKczEhCix1XrYOrMq2blNLSzuRHshGeQ9pZ7zUbjxtdluyi6AZ8ew3Xi5D4giLbjtLmpGzGOfA==
+"@topl/stable@^0.5.22":
+  version "0.5.22"
+  resolved "https://registry.yarnpkg.com/@topl/stable/-/stable-0.5.22.tgz#7919713b91973c5bb49ac7168013432de56276f3"
+  integrity sha512-wtMq+s3iWmUuNnBZSmwG9nX2J/DGNqsD54LehJIvEOyTOCPkm60JVc1XTkgNmVm5Q4pWAZbzS2ygcyUzvpMaog==
   dependencies:
     "@babel/core" "^7.2.0"
     "@babel/generator" "^7.2.2"
@@ -751,7 +751,7 @@
     seedrandom "^3.0.1"
     sinon "^7.2.2"
     sorcery "^0.10.0"
-    tmp-promise "^1.1.0"
+    tmp-promise "^2.0.1"
     tslib "^1.9.3"
     typescript "^3.2.2"
     ws "^7.0.0"
@@ -1118,11 +1118,6 @@ bcrypt-pbkdf@^1.0.0:
   integrity sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
   dependencies:
     tweetnacl "^0.14.3"
-
-bluebird@^3.5.0:
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
-  integrity sha512-5am6HnnfN+urzt4yfg7IgTbotDjIT/u8AJpEt0sIU9FtXfVeezXAPKswrG+xKUCOYAINpSdgZVDU6QFh+cuH3w==
 
 body-parser@1.19.0:
   version "1.19.0"
@@ -4179,12 +4174,11 @@ through@^2.3.6:
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
 
-tmp-promise@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/tmp-promise/-/tmp-promise-1.1.0.tgz#bb924d239029157b9bc1d506a6aa341f8b13e64c"
-  integrity sha512-8+Ah9aB1IRXCnIOxXZ0uFozV1nMU5xiu7hhFVUSxZ3bYu+psD4TzagCzVbexUCgNNGJnsmNDQlS4nG3mTyoNkw==
+tmp-promise@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/tmp-promise/-/tmp-promise-2.0.1.tgz#8856f057e782fc9c363a76335cf6165b8eddae19"
+  integrity sha512-2A0lDPWiuu+92AVO19p5D6eq2egvCPiVUkzR11jE+GG4QMjj4YQ4glr2RqzYT0TMeMs2tIXLPDYo4wWh2/WoSg==
   dependencies:
-    bluebird "^3.5.0"
     tmp "0.1.0"
 
 tmp@0.1.0:
