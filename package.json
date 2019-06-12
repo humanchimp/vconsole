@@ -1,22 +1,22 @@
 {
-  "name": "@topl/hatch",
+  "name": "@topl/vconsole",
   "version": "1.0.0",
-  "main": "dist/cjs/hatch.js",
-  "module": "dist/esm/hatch.js",
-  "browser": "dist/iife/hatch.js",
-  "typings": "dist/hatch.d.ts",
+  "main": "dist/cjs/vconsole.js",
+  "module": "dist/esm/vconsole.js",
+  "browser": "dist/iife/vconsole.js",
+  "typings": "dist/vconsole.d.ts",
   "license": "MIT",
   "scripts": {
     "test": "stable",
     "build": "rollup -c rollup.config.js",
-    "prepublishOnly": "yarn test && yarn build && mv dist/cjs/hatch.d.ts* dist && rm dist/*/hatch.d.ts*"
+    "prepublishOnly": "yarn test && yarn build && mv dist/cjs/vconsole.d.ts* dist && rm dist/*/vconsole.d.ts*"
   },
   "devDependencies": {
     "@topl/stable": "^0.5.22",
     "@wessberg/rollup-plugin-ts": "^1.1.55",
     "nyc": "^14.1.1",
-    "rollup": "^1.15.1",
     "prettier": "^1.17.1",
+    "rollup": "^1.15.1",
     "rollup-plugin-multi-entry": "^2.1.0",
     "typescript": "^3.5.1"
   },
@@ -27,5 +27,8 @@
     "proseWrap": "never",
     "singleQuote": false,
     "trailingComma": "all"
+  },
+  "dependencies": {
+    "@topl/tack": "^1.0.6"
   }
 }
