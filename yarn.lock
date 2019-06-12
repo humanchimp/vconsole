@@ -3700,7 +3700,7 @@ rollup-plugin-multi-entry@^2.1.0:
   dependencies:
     matched "^1.0.2"
 
-rollup-plugin-node-resolve@^5.0.0:
+rollup-plugin-node-resolve@^5.0.0, rollup-plugin-node-resolve@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-5.0.1.tgz#4619eafdf2ecb4e8ed24177ba47d7f11f027d38b"
   integrity sha512-9s3dTu44SKQZM/Pwll42GpqXgT+WdvO0Ga01lF8cwZqJGqRUATtD+GrP3uIzZdpnbPonEJbVasfFt80VGPQqKw==

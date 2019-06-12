@@ -1,5 +1,6 @@
 import ts from "@wessberg/rollup-plugin-ts";
 import typescript from "typescript";
+import resolve from "rollup-plugin-node-resolve";
 import packageJson from "./package.json";
 
 export default {
@@ -19,8 +20,8 @@ export default {
       format: "iife",
       file: packageJson.browser,
       sourcemap: true,
-      name: "vconsole"
+      name: "vconsole",
     },
   ],
-  plugins: [ts({ typescript })]
+  plugins: [ts({ typescript }), resolve({ only: ["@topl/tack"] })],
 };
