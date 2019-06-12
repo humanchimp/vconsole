@@ -8,7 +8,7 @@ Sometimes, for obscure reasons, you need a vconsole.
 yarn add @topl/vconsole
 ```
 
-## api
+## example
 
 ```javascript
 import { wrapConsole } from "@topl/vconsole";
