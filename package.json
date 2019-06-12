@@ -1,6 +1,6 @@
 {
   "name": "@topl/vconsole",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/cjs/vconsole.js",
   "module": "dist/esm/vconsole.js",
   "browser": "dist/iife/vconsole.js",
