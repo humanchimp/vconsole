@@ -11,6 +11,8 @@ yarn add @topl/vconsole
 ## api
 
 ```javascript
+import { wrapConsole } from "@topl/vconsole";
+
 const vconsole = wrapConsole(console, callback);
 ```
 
