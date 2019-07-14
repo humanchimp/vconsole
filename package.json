@@ -20,7 +20,7 @@
     "rollup": "^1.15.1",
     "rollup-plugin-multi-entry": "^2.1.0",
     "rollup-plugin-node-resolve": "^5.0.1",
-    "typescript": "^3.5.1"
+    "typescript": "^3.5.3"
   },
   "nyc": {
     "instrument": false
